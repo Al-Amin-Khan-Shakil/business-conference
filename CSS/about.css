@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+body {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  width: 100vw;
+  background: url('../images/meeting-g9a1b20bce_1280.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#header {
+  width: 100%;
+  height: 58px;
+  background-color: #272a31;
+  padding: 0 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo {
+  width: 99px;
+  height: 38px;
+  border: 4px solid whitesmoke;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+#logo .logo-img {
+  width: 92px;
+  height: 31px;
+  background-color: whitesmoke;
+}
+
+#hamburger {
+  color: whitesmoke;
+  font-size: 22px;
+  transition: transform 0.1s;
+}
+
+#hamburger:hover {
+  transform: scale(1.1);
+  color: #ec5242;
+}
+
+#nav-section {
+  display: none;
+}

@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  z-index: 1000;
+}
+
+body {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  width: 100vw;
+  background: url('../images/hero-banner.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#hero .hero-wrapper {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #eb3d2a99;
+}
+
+#hero .pre-header {
+  display: none;
+}
+
+#header {
+  width: 100%;
+  height: 58px;
+  background-color: #272a31;
+  padding: 0 16px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 99px;
+  height: 38px;
+  border: 4px solid whitesmoke;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.logo .logo-img {
+  width: 92px;
+  height: 31px;
+  background-color: whitesmoke;
+}
+
+.hamburger {
+  color: whitesmoke;
+  font-size: 22px;
+  transition: transform 0.1s;
+}
+
+.hamburger:hover {
+  transform: scale(1.1);
+  color: #ec5242;
+}
+
+.nav-section {
+  display: none;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 11vh;
+  width: 100%;
+  margin: 36.5vh 0 5vh 0;
+}
+
+#banner .descriptive-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0 4vw;
+}
+
+#banner .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+#banner .title span:nth-child(1) {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+#banner .location {
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: whitesmoke;
+  font-weight: 400;
+}
+
+.location p:first-child i {
+  padding-right: 8px;
+}
+
+#banner .banner-btn {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.banner-btn .seat-btn {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ec5242;
+  background: whitesmoke;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.banner-btn .seat-btn:hover {
+  background: #ec5242;
+  color: whitesmoke;
+}
+
+.banner-btn .loca-btn {
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+  color: whitesmoke;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.banner-btn .loca-btn i {
+  padding-right: 8px;
+}
+
+.banner-btn .loca-btn:hover {
+  color: #ec5242;
+  background: whitesmoke;
+}
